@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Island of Taniti</title>
+	<link href="pictures-taniti/favicon.png" rel="icon">
+	<link href="../../main-style.css" rel="stylesheet">
+	<link href="../pages.css" rel="stylesheet">
+</head>
+	
+<body>
+	<header>
+		<a href="../../index.html" class="site-logo">
+			<img src="../../pictures-taniti/logo.png" alt="The logo for the Taniti Tourism Board">
+		</a>
+		<nav class="main-nav">
+			<ul>
+				<li><a href="../../index.html">Home</a></li>
+				<li><a href="../bookings/booking.html">Book Your Trip</a></li>
+				<li><a href="../attractions/attraction.html">Attractions</a></li>
+				<li><a href="../transportations/transportation.html">Transportation</a></li>
+				<li><a href="../faq/faq.html">F.A.Q</a></li>
+				<li><a href="../contact/contact-us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	<main>
+		<div class="breadcrumb">
+			<p>
+				<a href="booking.html">Book Your Trip</a> 
+				&#62&#62
+				<a href="booking-lodging.html">Lodging</a>
+			</p>
+		</div>
+		<h1 class="welcome-header">Lodging Reservations</h1>
+		<div class="introduction">
+			<p>Taniti offers many different ways to stay on the island!</p>
+			<p>The cheapest options are renting a bed at a hostel or booking a room at a family owned hotel.</p>
+			<p>The more luxurious options are our grand 4-star hotel or bread and breakfasts!</p>
+			<p>Choose how you want to stay down below!</p>
+		</div>
+		
+		<form action="bookconfirmation.html">
+			<h3>Book Your Stay!</h3>
+  		<div class="orgform">
+    		<h4>Pick Your Start Date:</h4>
+    		<label for="datepicker"></label>
+    		<input type="date" id="datepicker" name="datepicker" value="" required="required" />
+  		</div>
+		
+		<div class="orgform">
+    		<h4>Lodging Type:</h4>
+    		<label for="choosetype"></label>
+    		<select id="choosetype" name="choosetype">
+      			<option value="hostel">Hostel</option>
+      			<option value="fourhotel">4 star hotel</option>
+				<option value="family">Family hotel</option>
+				<option value="bandb">Bed and breakfast</option>
+    		</select>
+  		</div>
+  
+  		<div class="orgform">
+    		<h4>Name for Reservation:</h4>
+    		<label for="name"></label>
+   			<input type="text" id="name" name="name" value="" placeholder="Type name here" required="required" />
+  		</div>
+  
+  		<div class="orgform">
+   			<h4>Phone:</h4>
+    		<label for="phone"></label>
+    		<input type="text" id="phone" name="phone" value="" placeholder="Type phone number here" required="required" />
+  		</div>
+			
+		<div class="orgform">
+   			<h4>Billing Address:</h4>
+    		<label for="address"></label>
+    		<input type="text" id="address" name="address" value="" placeholder="Type billing address here" required="required" />
+  		</div>
+			
+		<div class="orgform">
+   			<h4>Card Number:</h4>
+    		<label for="cardnum"></label>
+    		<input type="text" id="cardnum" name="cardnum" value="" placeholder="Type card number here" required="required" />
+  		</div>
+  
+  		<div class="submitcontain">
+    		<input type="submit" value="Book" id="submit" />
+  		</div>
+		</form>
+		
+		<div class="wavecontain">
+			<img class="waveimage" src="../../pictures-taniti/waves.svg" alt="Decoration for the footer to make it look like waves">
+		</div>
+	</main>
+
+	<footer>
+		<ul>
+			<li><a href="../../index.html">Home</a></li>
+			<li><a href="../bookings/booking.html">Book Your Trip</a></li>
+			<li><a href="../attractions/attraction.html">Attractions</a></li>
+			<li><a href="../transportations/transportation.html">Transportation</a></li>
+			<li><a href="../faq/faq.html">F.A.Q</a></li>
+			<li><a href="../contact/contact-us.html">Contact Us</a></li>
+		</ul>
+		<div>
+			<h4>The Taniti Tourism Board</h4>
+			<p>Address: 123 N 45 St, Taniti City 123 456, Taniti</p>
+			<p>Phone: 123-456-7890</p>
+			<p>Email: Travelinfo@taniti.gov</p>
+		</div>
+	</footer>
+</body>
+</html>
